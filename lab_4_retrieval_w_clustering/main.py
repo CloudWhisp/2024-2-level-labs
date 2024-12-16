@@ -186,8 +186,6 @@ class DocumentVectorDB:
         """
         return self._vectorizer
 
-        return self._vectorizer
-
     def get_tokenizer(self) -> Tokenizer:
         """
         Get an object of the Tokenizer class.
